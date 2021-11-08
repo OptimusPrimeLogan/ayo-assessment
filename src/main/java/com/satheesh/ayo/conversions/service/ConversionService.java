@@ -43,7 +43,7 @@ public class ConversionService {
 
         if(fromUnitEnumUitDefinition.UNIT.getCategory() != enumCategory || toUnitEnumUitDefinition.UNIT.getCategory() != enumCategory){
             log.error("INVALID CONVERSION FROM "+fromUnit+" TO "+toUnit);
-            throw new CustomException("INVALID CONVERSION FROM "+fromUnit+" TO "+toUnit);
+            throw new CustomException("INVALID CONVERSION OF "+unitCategory+" FROM "+fromUnit+" TO "+toUnit);
         }
 
         try{

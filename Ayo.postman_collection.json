@@ -1,0 +1,77 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Ayo",
+		"_postman_id": "f2a2aedb-2f04-e68e-ee47-12c15a670619",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Temperature",
+			"request": {
+				"url": "http://localhost:8080/convert/temperature/celsius/kelvin/1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Length",
+			"request": {
+				"url": "http://localhost:8080/convert/length/meter/LIGHT_YEAR/10000000000000",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Mass",
+			"request": {
+				"url": "http://localhost:8080/convert/mass/kilogram/pound/1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Time",
+			"request": {
+				"url": "http://localhost:8080/convert/time/day/minute/1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Volume",
+			"request": {
+				"url": "http://localhost:8080/convert/volume/CUBIC_METER/GALLON/1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Speed",
+			"request": {
+				"url": "http://localhost:8080/convert/speed/METER_PER_SECOND/MACH/1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

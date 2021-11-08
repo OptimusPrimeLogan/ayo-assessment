@@ -16,7 +16,7 @@ public class UnitConvertor {
         baseUnitDefinition = BASE_UNIT_DEFINITION;
         bean               = BaseUnits.BASE_UNITS.get(UNIT_TYPE).UNIT;
         locale             = Locale.US;
-        formatString       = "%.2f";
+        formatString       = "%.6f";
     }
 
     public final double convert(final double VALUE, final UnitDefinition UNIT_DEFINITION) {

@@ -31,7 +31,7 @@ public class ConversionControllerIntegrationTests {
     @BeforeAll
     public void setup() throws Exception {
         this.mockMvc = standaloneSetup(this.conversionController).setControllerAdvice(GlobalExceptionHandler.class).build();
-        resultTemperature = "274.15 K";
+        resultTemperature = "274.150000 K";
     }
 
     @Test
@@ -80,7 +80,7 @@ public class ConversionControllerIntegrationTests {
                 .andExpect(MockMvcResultMatchers.status().is4xxClientError())
                 .andExpect(MockMvcResultMatchers.content().contentType(MediaType.APPLICATION_JSON))
                 .andExpect(result -> Assertions.assertTrue(result.getResolvedException() instanceof CustomException))
-                .andExpect(jsonPath("$.errorMessage", hasToString("INVALID CONVERSION FROM celsius TO miles")));
+                .andExpect(jsonPath("$.errorMessage", hasToString("INVALID CONVERSION OF temperature FROM celsius TO miles")));
     }
 
     @Test()

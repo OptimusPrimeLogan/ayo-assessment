@@ -34,7 +34,7 @@ public class ConversionControllerUnitTests {
     @BeforeAll
     public void setup() throws Exception {
         this.mockMvc = standaloneSetup(this.conversionController).build();
-        resultTemperature = "274.15 K";
+        resultTemperature = "274.150000 K";
     }
 
     @Test
