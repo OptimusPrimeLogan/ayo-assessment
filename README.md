@@ -25,3 +25,5 @@ There are two ways to run this project. The second command for Windows OS may va
 1) Standalone -> mvn clean spring-boot:run
 2) Docker Container Linux -> sudo docker build -t conversion_demo . ; sudo docker run -v "$HOME/.m2":/root/.m2 -p 8080:8080 --rm -it conversion_demo:latest 
 ```
+
+Additionally, the swagger endpoint can be located at http://localhost:8080/swagger-ui/index.html#/
