@@ -2,6 +2,9 @@ package com.ayo.conversions.units;
 
 import java.util.EnumMap;
 
+/***
+ * Base Units for each category
+ */
 public class BaseUnits {
     public static final EnumMap<Category, UnitDefinition> BASE_UNITS  = new EnumMap<Category, UnitDefinition>(Category.class) {
         {

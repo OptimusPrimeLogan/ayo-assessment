@@ -4,6 +4,9 @@ import com.ayo.conversions.entity.Unit;
 
 import java.math.BigDecimal;
 
+/***
+ * Unit Definition Setup with category, symbol, factor and offset values
+ */
 public enum UnitDefinition {
 
     // Length

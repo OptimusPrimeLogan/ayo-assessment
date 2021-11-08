@@ -30,6 +30,4 @@ public class Unit {
         offset = OFFSET_BD;
     }
 
-
-
 }
