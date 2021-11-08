@@ -1,6 +1,6 @@
-package com.satheesh.ayo.conversions.entity;
+package com.ayo.conversions.entity;
 
-import com.satheesh.ayo.conversions.units.Category;
+import com.ayo.conversions.units.Category;
 import lombok.ToString;
 import lombok.Getter;
 
@@ -8,6 +8,9 @@ import java.math.BigDecimal;
 
 @ToString
 @Getter
+/***
+ * POJO class to create units
+ */
 public class Unit {
     private final Category category;
     private final String unitShort;

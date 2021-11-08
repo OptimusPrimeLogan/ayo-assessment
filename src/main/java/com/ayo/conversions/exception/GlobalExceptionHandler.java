@@ -1,4 +1,4 @@
-package com.satheesh.ayo.conversions.exception;
+package com.ayo.conversions.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

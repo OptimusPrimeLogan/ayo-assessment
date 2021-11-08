@@ -1,4 +1,4 @@
-package com.satheesh.ayo.conversions;
+package com.ayo.conversions;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

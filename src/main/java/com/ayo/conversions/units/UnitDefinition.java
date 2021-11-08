@@ -1,6 +1,6 @@
-package com.satheesh.ayo.conversions.units;
+package com.ayo.conversions.units;
 
-import com.satheesh.ayo.conversions.entity.Unit;
+import com.ayo.conversions.entity.Unit;
 
 import java.math.BigDecimal;
 

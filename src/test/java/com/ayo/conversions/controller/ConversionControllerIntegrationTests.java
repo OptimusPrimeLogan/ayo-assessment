@@ -1,7 +1,7 @@
-package com.satheesh.ayo.conversions.controller;
+package com.ayo.conversions.controller;
 
-import com.satheesh.ayo.conversions.exception.CustomException;
-import com.satheesh.ayo.conversions.exception.GlobalExceptionHandler;
+import com.ayo.conversions.exception.CustomException;
+import com.ayo.conversions.exception.GlobalExceptionHandler;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;

@@ -1,6 +1,6 @@
-package com.satheesh.ayo.conversions.service;
+package com.ayo.conversions.service;
 
-import com.satheesh.ayo.conversions.exception.CustomException;
+import com.ayo.conversions.exception.CustomException;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package com.satheesh.ayo.conversions.exception;
+package com.ayo.conversions.exception;
 
 public class CustomException extends RuntimeException {
 

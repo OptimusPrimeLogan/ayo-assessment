@@ -1,4 +1,4 @@
-package com.satheesh.ayo.conversions;
+package com.ayo.conversions;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.satheesh.ayo.conversions.units;
+package com.ayo.conversions.units;
 
 import java.util.EnumMap;
 
